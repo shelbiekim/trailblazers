@@ -1,11 +1,3 @@
-<?php
-$connect = mysqli_connect("localhost","root","","phpmyadmin");
-$query = "SELECT * FROM Food_nutrient";
-$result = mysqli_query($connect,$query);
-$data = array();
-
-
-?>
 <!DOCTYPE HTML>
 <!--
 	Ion by TEMPLATED
@@ -53,31 +45,69 @@ $data = array();
 				</header>
 				<div class="container">
 					<section>
-						<h2>Nutrient per food group</h2>
-						<div id="nutrient" style="width:900px; height:500px;">
-
+                        <div class="row">
+                            <h3>Choose nutrient</h3>  
+                            <div>
                             <?php
                                 $selected = "Calcium";
                                 $options = array('Calcium','Carb','Fat','Fiber','Protein','Sugar','Vitamin A','Vitamin C', 'Vitamin E');
-                                
                                 echo "<select>";                                
                                 foreach($options as $option) {
-                                    
                                     if($selected == $option) {
                                          echo "<option selected ='selected' value='$option'>$option</option>";
                                     }
                                     else {
                                          echo "<option value='$option'>$option</option>";
                                     }
-                                   
+
                                 }
-                                echo "<select>";
+                                echo "</select>";
                             ?>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3>Choose food group</h3>
+                            <div>
+                                <?php
+
+                                define('DB_SERVER','localhost');
+                                define('DB_USERNAME','root');
+                                define('DB_PASSWORD','');
+                                define('DB_NAME','phpmyadmin');
+
+                                $link = mysqli_connect(DB_SERVER, DB_USERNAME,DB_PASSWORD,DB_NAME);
+
+                                if($link == false) {
+                                    die("Error: Could not connect." . mysqli_connect_error());
+                                }
+
+                                $sql = "SELECT * FROM Food_nutrition";
+                                if($result = mysqli_query($link, $sql)) {
+                                    if(mysqli_num_rows($result) > 0) {
+                                        while($row = mysqli_fetch_array($result)){
+                                            // echo $row['variable'];
+                                        }   
+                                    }
+                                }
+
+                                $options = array('Dairy and Egg Products','Red meat','White meat','Vegetables','Fruits','Legumes and Nuts','Seafood');
+                                echo "<select>";                                
+                                foreach($options as $option) {
+                                    if($selected == $option) {
+                                        echo "<option selected ='selected' value='$option'>$option</option>";
+                                    }
+                                    else {
+                                         echo "<option value='$option'>$option</option>";
+                                    }
+
+                                }
+                                echo "</select>";
+
+                                ?>
+                            </div>
                         </div>
                         
-                        <a href="#" class="image fit"><img src="images/banner.jpg" alt="" /></a>
 						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo.</p>
-						<p>Amet nibh adipiscing adipiscing. </p>
 					</section>
 					<hr class="major" />
 					<div class="row">
