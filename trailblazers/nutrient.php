@@ -1,4 +1,31 @@
-<!DOCTYPE HTML>
+ <?php
+    define('DB_SERVER','localhost');
+    define('DB_USERNAME','root');
+    define('DB_PASSWORD','');
+    define('DB_NAME','phpmyadmin');
+
+    $link = mysqli_connect(DB_SERVER, DB_USERNAME,DB_PASSWORD,DB_NAME);
+
+    if($link == false) {
+        die("Error: Could not connect. " . mysqli_connect_error());
+    }
+    //query to get data from the table "Food_nutrition"
+    $query = "SELECT * FROM Food_nutrition";
+    //execute query
+    $result = mysqli_query($link, $query);
+    //create an empty array
+    $data = array();
+    //loop through the returned data
+    foreach ($result as $row) {
+        $data[] = $row;
+    }
+    //free memory associated with result
+    $result -> close();
+    //close connection
+    $link -> close();
+    //print json_encode($data);
+?>
+
 <!--
 	Ion by TEMPLATED
 	templated.co @templatedco
@@ -45,93 +72,76 @@
 				</header>
 				<div class="container">
 					<section>
+                        <h3>TOP 10 FOODS HIGHEST IN SELECTED NUTRIENT</h3><br />
                         <div class="row">
-                            <h3>Choose nutrient</h3>  
+                            <h4>Choose nutrient&nbsp;&nbsp;&nbsp;&nbsp;</h4>  
                             <div>
-                            <?php
-                                $selected = "Calcium";
-                                $options = array('Calcium','Carb','Fat','Fiber','Protein','Sugar','Vitamin A','Vitamin C', 'Vitamin E');
-                                echo "<select>";                                
-                                foreach($options as $option) {
-                                    if($selected == $option) {
-                                         echo "<option selected ='selected' value='$option'>$option</option>";
-                                    }
-                                    else {
-                                         echo "<option value='$option'>$option</option>";
-                                    }
+                                <select id="nutrient" onchange="getSelectValue()">
+                                    <option>Select</option>
+                                    <option value="calcium">Calcium</option>
+                                    <option value="carb">Carb</option>
+                                    <option value="fat">Fat</option>
+                                    <option value="fiber">Fiber</option>
+                                    <option value="protein">Protein</option>
+                                    <option value="sugar">Sugar</option>
+                                    <option value="vitaminA">Vitamin A</option>
+                                    <option value="vitaminC">Vitamin C</option>
+                                    <option value="vitaminE">Vitamin E</option>
 
-                                }
-                                echo "</select>";
-                            ?>
+                                </select>
+                            </div> 
+                        </div>
+                        <br />
+                        <div class="row">
+                            <h4>Choose food group</h4>
+                            <div>
+                                <select class="foodgroup">
+                                    <option>Select</option>
+                                    <option value="dairyegg">Dairy and Egg Products</option>
+                                    <option value="fruits">Fruits</option>
+                                    <option value="legumesnuts">Legumes and Nuts</option>
+                                    <option value="redmeat">Red meat</option>
+                                    <option value="seafood">Seafood</option>
+                                    <option value="vegetables">Vegetables</option>
+                                    <option value="whitemeat">White meat</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="row">
-                            <h3>Choose food group</h3>
-                            <div>
-                                <?php
-
-                                define('DB_SERVER','localhost');
-                                define('DB_USERNAME','root');
-                                define('DB_PASSWORD','');
-                                define('DB_NAME','phpmyadmin');
-
-                                $link = mysqli_connect(DB_SERVER, DB_USERNAME,DB_PASSWORD,DB_NAME);
-
-                                if($link == false) {
-                                    die("Error: Could not connect." . mysqli_connect_error());
+                        <script type ="text/javascript">
+                                var nutrient = "";
+                                var foodgroup = "";
+                                var fooddata = <?php echo json_encode($data); ?>;
+                                console.log("Test");
+                            
+                                function getSelectValue() {
+                                    var selectedValue = document.getElementById("nutrient").value;
+                                    if (selectedValue == "Calcium") {
+                                        selectedValue = "Calcium_mg"; 
+                                    } else if (selectedValue == "Carb") {
+                                        selectedValue = "Carb_g"; 
+                                    } else if (selectedValue == "Fat") {
+                                        selectedValue = "Fat_g"; 
+                                    } else if (selectedValue == "Fiber") {
+                                        selectedValue = "Fiber_g"; 
+                                    } else if (selectedValue == "Protein"){
+                                        selectedValue = "Protein_g";                         
+                                    } else if (selectedValue == "Sugar") {
+                                        selectedValue = "Sugar_g";
+                                    } else if (selectedValue == "Vitamin A") {
+                                        selectedValue = "VitA_mcg";
+                                    } else if (selectedValue == "Vitamin C") {
+                                        selectedValue = "VitC_mg";
+                                    } else if (selectedValue == "Vitamin E") {
+                                        selectedValue = "VitE_mg";
+                                    }   
+                                    return "test";
+                                    
                                 }
-
-                                $sql = "SELECT * FROM Food_nutrition";
-                                if($result = mysqli_query($link, $sql)) {
-                                    if(mysqli_num_rows($result) > 0) {
-                                        while($row = mysqli_fetch_array($result)){
-                                            // echo $row['variable'];
-                                        }   
-                                    }
-                                }
-
-                                $options = array('Dairy and Egg Products','Red meat','White meat','Vegetables','Fruits','Legumes and Nuts','Seafood');
-                                echo "<select>";                                
-                                foreach($options as $option) {
-                                    if($selected == $option) {
-                                        echo "<option selected ='selected' value='$option'>$option</option>";
-                                    }
-                                    else {
-                                         echo "<option value='$option'>$option</option>";
-                                    }
-
-                                }
-                                echo "</select>";
-
-                                ?>
-                            </div>
-                        </div>
+                            </script>
                         
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo.</p>
 					</section>
 					<hr class="major" />
-					<div class="row">
-						<div class="6u">
-							<section class="special">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-								<h3>Mollis adipiscing nisl</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="6u">
-							<section class="special">
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Neque ornare adipiscing</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
+
 				</div>
 			</section>
 
