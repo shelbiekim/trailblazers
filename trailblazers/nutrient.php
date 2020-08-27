@@ -42,6 +42,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script src="js/Chart.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -76,7 +77,7 @@
                         <div class="row">
                             <h4>Choose nutrient&nbsp;&nbsp;&nbsp;&nbsp;</h4>  
                             <div>
-                                <select id="nutrient" onchange="getSelectValue()">
+                                <select id="nutrient" onchange="filterNutrient()">
                                     <option>Select</option>
                                     <option value="calcium">Calcium</option>
                                     <option value="carb">Carb</option>
@@ -95,7 +96,7 @@
                         <div class="row">
                             <h4>Choose food group</h4>
                             <div>
-                                <select class="foodgroup">
+                                <select id="foodgroup" onchange="filterGroup()">
                                     <option>Select</option>
                                     <option value="dairyegg">Dairy and Egg Products</option>
                                     <option value="fruits">Fruits</option>
@@ -107,37 +108,112 @@
                                 </select>
                             </div>
                         </div>
+                        <br />
+                        <ul class="actions">
+                            <li><a class="button alt" onclick="validateInput()">Submit</a></li>
+                        </ul>
+                        <div class="row">
+                            <canvas id="myChart" width="100" height="100"></canvas>
+                        </div>
                         <script type ="text/javascript">
-                                var nutrient = "";
-                                var foodgroup = "";
-                                var fooddata = <?php echo json_encode($data); ?>;
-                                console.log("Test");
-                            
-                                function getSelectValue() {
-                                    var selectedValue = document.getElementById("nutrient").value;
-                                    if (selectedValue == "Calcium") {
-                                        selectedValue = "Calcium_mg"; 
-                                    } else if (selectedValue == "Carb") {
-                                        selectedValue = "Carb_g"; 
-                                    } else if (selectedValue == "Fat") {
-                                        selectedValue = "Fat_g"; 
-                                    } else if (selectedValue == "Fiber") {
-                                        selectedValue = "Fiber_g"; 
-                                    } else if (selectedValue == "Protein"){
-                                        selectedValue = "Protein_g";                         
-                                    } else if (selectedValue == "Sugar") {
-                                        selectedValue = "Sugar_g";
-                                    } else if (selectedValue == "Vitamin A") {
-                                        selectedValue = "VitA_mcg";
-                                    } else if (selectedValue == "Vitamin C") {
-                                        selectedValue = "VitC_mg";
-                                    } else if (selectedValue == "Vitamin E") {
-                                        selectedValue = "VitE_mg";
-                                    }   
-                                    return "test";
+                                var original_data = <?php echo json_encode($data); ?>;
+                                var food_data = original_data;
+                                var data_filter = "";
+                                var select_nutrient = "";
+                                var select_group = "";
+
+                                function filterNutrient() {
+                                    var nutrient = document.getElementById("nutrient").value;
+                                    if (nutrient === "calcium") {
+                                        select_nutrient = "Calcium_mg";
+                                    } else if (nutrient === "carb") {
+                                        select_nutrient = "Carb_g";
+                                    } else if (nutrient === "fat") {
+                                        select_nutrient = "Fat_g";
+                                    } else if (nutrient === "fiber") {
+                                        select_nutrient = "Fiber_g";
+                                    } else if (nutrient === "protein"){
+                                        select_nutrient = "Protein_g";
+                                    } else if (nutrient === "sugar") {
+                                        select_nutrient = "Sugar_g";
+                                    } else if (nutrient === "vitaminA") {
+                                        select_nutrient = "VitA_mcg";
+                                    } else if (nutrient === "vitaminC") {
+                                        select_nutrient = "vitC_mg";
+                                    } else if (nutrient === "vitaminE") {
+                                        select_nutrient = "vitE_mg";
+                                    }
+
+                                    //console.log(selectedValue);
+                                    data_filter = food_data.filter(d => d.nutrient_type === select_nutrient);
+                                    food_data = data_filter;
+                                    //console.log(data_filter);
                                     
                                 }
-                            </script>
+
+                                function filterGroup() {
+                                    var group = document.getElementById("foodgroup").value;
+                                    if (group === "dairyegg") {
+                                        select_group = "Dairy and Egg Products";
+                                    } else if (group === "fruits") {
+                                        select_group = "Fruits";
+                                    } else if (group === "legumesnuts") {
+                                        select_group = "Legumes and Nuts";
+                                    } else if (group === "redmeat"){
+                                        select_group = "Red meat";
+                                    } else if (group === "seafood") {
+                                        select_group = "Seafood";
+                                    } else if (group === "vegetables") {
+                                        select_group = "Vegetables";
+                                    } else if (group === "whitemeat") {
+                                        select_group = "White meat";
+                                    }
+
+                                    data_filter = food_data.filter(d => d.food_group === select_group);
+                                    food_data = data_filter;
+                                    //console.log(food_data);
+                                }
+
+                                function validateInput() {
+                                    if (select_nutrient.length > 0 && select_group.length > 0) {
+                                        showFood()
+                                    }
+                                }
+
+                                function showFood() {
+                                    // descending order
+                                    food_data.sort(function(a, b) {
+                                        return b.value - a.value;
+                                    });
+
+                                    var top_ten = food_data.slice(0,5);
+                                    var chart_x = [];
+                                    var chart_y = [];
+                                    for(var i in top_ten) {
+                                        chart_x.push(top_ten[i].short_descrip);
+                                        chart_y.push(top_ten[i].value);
+                                    }
+
+                                    var ctx = document.getElementById('myChart').getContext('2d');
+                                    var config = {
+                                        type: 'bar',
+                                        data: {
+                                            labels: chart_x,
+                                            datasets: [{
+                                                label:  'The Amount of Nutrient',
+                                                data: chart_y,
+                                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                            }]
+                                        }
+                                    };
+                                    var chart = new Chart(ctx, config);
+
+                                    // reset data
+                                    console.log(chart_x);
+                                    food_data = original_data;
+                                }
+
+                        </script>
                         
 					</section>
 					<hr class="major" />
