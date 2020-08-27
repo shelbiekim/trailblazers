@@ -865,6 +865,12 @@
 						#header nav > ul > li a:hover {
 							color: #63c5bc;
 						}
+                        #header nav > ul > li a.active-page
+                        {
+                            color: #63c5bc;
+
+                        }
+
 
 					#header nav > ul > li:first-child {
 						margin-left: 0;
@@ -1073,6 +1079,7 @@
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
+        
     }
 
     .answers a {
@@ -1093,8 +1100,10 @@
     .answers a.correct,
     .answers a.incorrect {
         color: #fff;
-        
     }
+
+
+
 
     #quiz-controls {
         /* background: #63c5bc; */
@@ -1165,3 +1174,5 @@
 		line-height: 2.85em;
 		padding: 0 1.75em;
     }
+
+
