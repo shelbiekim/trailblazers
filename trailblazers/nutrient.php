@@ -202,8 +202,9 @@
                                         type: 'bar',
                                         data: {
                                             labels: chart_x,
+                                            tooltipText: description_x,
                                             datasets: [{
-                                                label:  'The Amount of Nutrient',
+                                                label:  'The Amount of '+ select_nutrient,
                                                 data: chart_y,
                                                 // bootstrap colors
                                                 // https://i.pinimg.com/originals/b8/70/f6/b870f6c3cf2f275906616de26cffaa52.png
@@ -212,9 +213,19 @@
                                             }]
                                         },
                                         options: {
-                                            responsive: true
+                                            responsive: true,
+                                            tooltips: {
+                                                callbacks: {
+                                                    title: function(tooltipItem, data) {
+                                                        var title = data.tooltipText[tooltipItem[0].index];
+                                                        return title;
+                                                    }
+                                                }
+                                            }
+
                                         }
                                     };
+                                    //Chart.defaults.font.size = 14;
                                     myChart = new Chart(ctx, config);
                                     chartExist = true;
                                     // reset data
