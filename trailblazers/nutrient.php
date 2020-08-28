@@ -113,7 +113,7 @@
                             <li><a class="button alt" onclick="validateInput()">Submit</a></li>
                         </ul>
                         <div class="row">
-                            <canvas id="myChart" width="100" height="100"></canvas>
+                            <canvas id="myChart" width="100" height="50"></canvas>
                         </div>
                         <script type ="text/javascript">
                                 var original_data = <?php echo json_encode($data); ?>;
@@ -121,6 +121,8 @@
                                 var data_filter = "";
                                 var select_nutrient = "";
                                 var select_group = "";
+                                var myChart;
+                                var chartExist = false;
 
                                 function filterNutrient() {
                                     var nutrient = document.getElementById("nutrient").value;
@@ -139,16 +141,10 @@
                                     } else if (nutrient === "vitaminA") {
                                         select_nutrient = "VitA_mcg";
                                     } else if (nutrient === "vitaminC") {
-                                        select_nutrient = "vitC_mg";
+                                        select_nutrient = "VitC_mg";
                                     } else if (nutrient === "vitaminE") {
-                                        select_nutrient = "vitE_mg";
+                                        select_nutrient = "VitE_mg";
                                     }
-
-                                    //console.log(selectedValue);
-                                    data_filter = food_data.filter(d => d.nutrient_type === select_nutrient);
-                                    food_data = data_filter;
-                                    //console.log(data_filter);
-                                    
                                 }
 
                                 function filterGroup() {
@@ -168,29 +164,36 @@
                                     } else if (group === "whitemeat") {
                                         select_group = "White meat";
                                     }
-
-                                    data_filter = food_data.filter(d => d.food_group === select_group);
-                                    food_data = data_filter;
-                                    //console.log(food_data);
                                 }
 
                                 function validateInput() {
-                                    if (select_nutrient.length > 0 && select_group.length > 0) {
-                                        showFood()
+                                    if (select_nutrient.length > 0 && select_group.length > 0 && chartExist === true)  {
+                                        myChart.destroy();
+                                        food_data = food_data.filter(d => d.nutrient_type === select_nutrient);
+                                        food_data = food_data.filter(d => d.food_group === select_group);
+                                        showFood();
+                                    } else if (select_nutrient.length > 0 && select_group.length > 0) {
+                                        food_data = food_data.filter(d => d.nutrient_type === select_nutrient);
+                                        food_data = food_data.filter(d => d.food_group === select_group);
+                                        showFood();
                                     }
                                 }
 
                                 function showFood() {
+
                                     // descending order
                                     food_data.sort(function(a, b) {
                                         return b.value - a.value;
                                     });
 
-                                    var top_ten = food_data.slice(0,5);
+                                    var top_ten = food_data.slice(0,10);
                                     var chart_x = [];
+                                    var description_x = [];
                                     var chart_y = [];
                                     for(var i in top_ten) {
-                                        chart_x.push(top_ten[i].short_descrip);
+                                        description_x.push(top_ten[i].short_descrip);
+                                        var splitString = top_ten[i].short_descrip.split(',');
+                                        chart_x.push(splitString[0]); // get the first word
                                         chart_y.push(top_ten[i].value);
                                     }
 
@@ -202,12 +205,18 @@
                                             datasets: [{
                                                 label:  'The Amount of Nutrient',
                                                 data: chart_y,
-                                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                                // bootstrap colors
+                                                // https://i.pinimg.com/originals/b8/70/f6/b870f6c3cf2f275906616de26cffaa52.png
+                                                backgroundColor: 'rgba(0,150,136,0.7)',
+                                                hoverBackgroundColor: 'rgba(255,152,0,0.7)'
                                             }]
+                                        },
+                                        options: {
+                                            responsive: true
                                         }
                                     };
-                                    var chart = new Chart(ctx, config);
-
+                                    myChart = new Chart(ctx, config);
+                                    chartExist = true;
                                     // reset data
                                     console.log(chart_x);
                                     food_data = original_data;
