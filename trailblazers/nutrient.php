@@ -79,15 +79,15 @@
                             <div>
                                 <select id="nutrient" onchange="filterNutrient()">
                                     <option>Select</option>
-                                    <option value="calcium">Calcium</option>
-                                    <option value="carb">Carb</option>
-                                    <option value="fat">Fat</option>
-                                    <option value="fiber">Fiber</option>
-                                    <option value="protein">Protein</option>
-                                    <option value="sugar">Sugar</option>
-                                    <option value="vitaminA">Vitamin A</option>
-                                    <option value="vitaminC">Vitamin C</option>
-                                    <option value="vitaminE">Vitamin E</option>
+                                    <option value="Calcium_mg">Calcium</option>
+                                    <option value="Carb_g">Carb</option>
+                                    <option value="Fat_g">Fat</option>
+                                    <option value="Fiber_g">Fiber</option>
+                                    <option value="Protein_g">Protein</option>
+                                    <option value="Sugar_g">Sugar</option>
+                                    <option value="VitA_mcg">Vitamin A</option>
+                                    <option value="VitC_mg">Vitamin C</option>
+                                    <option value="VitE_mg">Vitamin E</option>
 
                                 </select>
                             </div> 
@@ -98,13 +98,13 @@
                             <div>
                                 <select id="foodgroup" onchange="filterGroup()">
                                     <option>Select</option>
-                                    <option value="dairyegg">Dairy and Egg Products</option>
-                                    <option value="fruits">Fruits</option>
-                                    <option value="legumesnuts">Legumes and Nuts</option>
-                                    <option value="redmeat">Red meat</option>
-                                    <option value="seafood">Seafood</option>
-                                    <option value="vegetables">Vegetables</option>
-                                    <option value="whitemeat">White meat</option>
+                                    <option value="Dairy and Egg Products">Dairy and Egg Products</option>
+                                    <option value="Fruits">Fruits</option>
+                                    <option value="Legumes and Nuts">Legumes and Nuts</option>
+                                    <option value="Red meat">Red meat</option>
+                                    <option value="Seafood">Seafood</option>
+                                    <option value="Vegetables">Vegetables</option>
+                                    <option value="White meat">White meat</option>
                                 </select>
                             </div>
                         </div>
@@ -126,45 +126,11 @@
                                 var topLimit;
 
                                 function filterNutrient() {
-                                    var nutrient = document.getElementById("nutrient").value;
-                                    if (nutrient === "calcium") {
-                                        select_nutrient = "Calcium_mg";
-                                    } else if (nutrient === "carb") {
-                                        select_nutrient = "Carb_g";
-                                    } else if (nutrient === "fat") {
-                                        select_nutrient = "Fat_g";
-                                    } else if (nutrient === "fiber") {
-                                        select_nutrient = "Fiber_g";
-                                    } else if (nutrient === "protein"){
-                                        select_nutrient = "Protein_g";
-                                    } else if (nutrient === "sugar") {
-                                        select_nutrient = "Sugar_g";
-                                    } else if (nutrient === "vitaminA") {
-                                        select_nutrient = "VitA_mcg";
-                                    } else if (nutrient === "vitaminC") {
-                                        select_nutrient = "VitC_mg";
-                                    } else if (nutrient === "vitaminE") {
-                                        select_nutrient = "VitE_mg";
-                                    }
+                                    select_nutrient = document.getElementById("nutrient").value;
                                 }
 
                                 function filterGroup() {
-                                    var group = document.getElementById("foodgroup").value;
-                                    if (group === "dairyegg") {
-                                        select_group = "Dairy and Egg Products";
-                                    } else if (group === "fruits") {
-                                        select_group = "Fruits";
-                                    } else if (group === "legumesnuts") {
-                                        select_group = "Legumes and Nuts";
-                                    } else if (group === "redmeat"){
-                                        select_group = "Red meat";
-                                    } else if (group === "seafood") {
-                                        select_group = "Seafood";
-                                    } else if (group === "vegetables") {
-                                        select_group = "Vegetables";
-                                    } else if (group === "whitemeat") {
-                                        select_group = "White meat";
-                                    }
+                                    select_group = document.getElementById("foodgroup").value;
                                 }
 
                                 function validateInput() {
