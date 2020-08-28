@@ -73,7 +73,7 @@
 				</header>
 				<div class="container">
 					<section>
-                        <h3>TOP 10 FOODS HIGHEST IN SELECTED NUTRIENT</h3><br />
+                        <h3>TOP FOODS HIGHEST IN SELECTED NUTRIENT</h3><br />
                         <div class="row">
                             <h4>Choose nutrient&nbsp;&nbsp;&nbsp;&nbsp;</h4>  
                             <div>
@@ -123,6 +123,7 @@
                                 var select_group = "";
                                 var myChart;
                                 var chartExist = false;
+                                var topLimit;
 
                                 function filterNutrient() {
                                     var nutrient = document.getElementById("nutrient").value;
@@ -180,19 +181,27 @@
                                 }
 
                                 function showFood() {
-
                                     // descending order
                                     food_data.sort(function(a, b) {
                                         return b.value - a.value;
                                     });
 
-                                    var top_ten = food_data.slice(0,10);
+                                    topLimit = 10;
+
+                                    for (var i=0; i<10;i++){
+                                        if (food_data[i].value === '0') {
+                                            topLimit = i;
+                                            break;
+                                        }
+                                    }
+
+                                    var top_ten = food_data.slice(0,topLimit);
                                     var chart_x = [];
                                     var description_x = [];
                                     var chart_y = [];
                                     for(var i in top_ten) {
-                                        description_x.push(top_ten[i].short_descrip);
-                                        var splitString = top_ten[i].short_descrip.split(',');
+                                        description_x.push(top_ten[i].descrip);
+                                        var splitString = top_ten[i].descrip.split(',');
                                         chart_x.push(splitString[0]); // get the first word
                                         chart_y.push(top_ten[i].value);
                                     }
@@ -225,16 +234,43 @@
 
                                         }
                                     };
-                                    //Chart.defaults.font.size = 14;
+                                    Chart.defaults.global.defaultFontSize = 18;
                                     myChart = new Chart(ctx, config);
                                     chartExist = true;
                                     // reset data
                                     console.log(chart_x);
+                                    showTable(food_data);
                                     food_data = original_data;
                                 }
 
+                                function showTable(fdata){
+                                    var table = document.getElementById("myTable");
+                                    table.innerHTML = "";
+                                    for (var i=0; i<topLimit;i++){
+                                        var j = i+1;
+                                        var row = `<tr>
+                                                        <td>${j}</td>
+                                                        <td>${fdata[i].descrip}</td>
+                                                        <td>${fdata[i].nutrient_type}</td>
+                                                        <td>${fdata[i].value}</td>
+                                                    </tr>`
+                                        table.innerHTML += row;
+                                    }
+                                }
+
                         </script>
-                        
+                        <br /><br />
+                        <table id="table">
+                            <tr>
+                                <th>Ranking</th>
+                                <th>Description</th>
+                                <th>Nutrient_unit</th>
+                                <th>Value</th>
+                            </tr>
+                            <tbody id="myTable">
+
+                            </tbody>
+                        </table>
 					</section>
 					<hr class="major" />
 
