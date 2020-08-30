@@ -150,8 +150,7 @@
 
 /* Section/Article */
 
-	section.special p, article.special {
-		text-align: center;
+	section.special p, article.special{
 		text-align: justify;
 	}
 
@@ -422,6 +421,12 @@
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
 		}
 
 		.image.fit {
@@ -907,7 +912,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/food_banner.jpg");
+		background-image: url("../images/test1.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1188,153 +1193,3 @@
 		line-height: 1.75em;
 		text-align: left;
 	}
-
-.container-slide{
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height:100vh;
-	border-spacing: 20px;
-}
-.container-slide .slider{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width:500%;
-	height: 100%;
-	animation: animate 20s linear infinite;
-	border-spacing: 20px;
-}
-.container-slide .slider .slide
-{
-	position: relative;
-	width: 20%;
-	height: 100%;
-	float: left;
-	border-spacing: 20px;
-}
-.container-slide .slider .slide .caption
-{
-	transition: 4s;
-	position: absolute;
-	bottom: 60px;
-	left: 60px;
-	right: 60px;
-	padding: 30px;
-	background: rgba(0,0,0,.5);
-	box-sizing: border-box;
-}
-.container-slide .slider .slide .caption h2
-{
-	transition: 4s;
-	margin: 0 0 20px;
-	padding: 0;
-	color: #fff;
-	font-size:48px;
-}
-.container-slide .slider .slide .caption p
-{
-	transition: 4s;
-	margin: 0;
-	padding: 0;
-	color: #fff;
-	font-size:18px;
-}
-.container-slide .slider .slide.slide1
-{
-	background: url(images/farm.jpg);
-	background-size: cover;
-	background-position: center;
-	border-spacing: 20px;
-
-}
-.container-slide .slider .slide.slide2
-{
-	background: url(images/feed.png);
-	background-size: cover;
-	background-position: center;
-	border-spacing: 20px;
-
-}
-.container-slide .slider .slide.slide3
-{
-	background: url(images/processing.png);
-	background-size: cover;
-	background-position: center;
-	border-spacing: 20px;
-
-}
-.container-slide .slider .slide.slide4
-{
-	background: url(images/transport.jpg);
-	background-size: cover;
-	background-position: center;
-	border-spacing: 20px;
-
-}
-.container-slide .slider .slide.slide5
-{
-	background: url(images/retail.png);
-	background-size: cover;
-	background-position: center;
-	border-spacing: 20px;
-
-}
-@keyframes animate
-{
-	0%
-	{
-		left: 0;
-	}
-	15%
-	{
-		left: 0;
-	}
-	20%
-	{
-		left: -100%;
-	}
-	40%
-	{
-		left: -100%;
-	}
-	45%
-	{
-		left: -200%;
-	}
-	65%
-	{
-		left: -200%;
-	}
-	70%
-	{
-		left: -300%;
-	}
-	90%
-	{
-		left: -300%;
-	}
-	100%
-	{
-		left: -350%;
-	}
-}
-@media (max-width:768px)
-{
-	.container-slide .slider .slide .caption
-	{
-		bottom: 20px;
-		left: 20px;
-		right: 20px;
-		padding: 20px;
-	}
-	.container-slide .slider .slide .caption h2
-	{
-		margin: 0 0 10px;
-		font-size:30px;
-	}
-	.container-slide .slider .slide .caption p
-	{
-		font-size:18px;
-	}
-}

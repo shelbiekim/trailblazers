@@ -143,7 +143,7 @@
 			<section id="main" class="wrapper style1">
 				<header class="major">
 					<h2>Carbon Footprint</h2>
-					<p>Expand your knowledge around carbon footprint</p>
+					<p>Where do emissions from food come from?</p>
 				</header>
 				<div class="container">
 					<section>
@@ -217,14 +217,16 @@
                         }
                         </script>
                     
-					</section>
+					</section><br>
+                    <hr class="major" />
 				</div>
-			</section>
-
-        <section id="main" class="wrapper style1">
             <div class="container">
-                <section>
-                    <h3>Carbon emission of each stage</h3><br />
+                    <h3>Greenhouse gas emissions across different stages<br/>in the food production lifecycle</h3>
+                    <p>Carbon footprint is the quantity of greenhouse gas in carbon dioxide equivalent (CO2e) which is
+                        generated across the supply chain of the product.<br>It requires energy to grow, process, package, transport, and warehouse the food we consume.<br>
+                        Knowing how carbon footprint is emitted across this chain helps you plan a nutritious diet in a sustainable way.<br><br>
+                        Select the food and hover over the bar chart to see details.
+                    </p>
                     <div class="row">
                         <h4>Choose a type of food</h4>
                         <div>
@@ -322,7 +324,7 @@
                                 data:{
                                     labels:chart_x,
                                     datasets:[{
-                                        label:"Carbon Emission",
+                                        label:"Emissions (Kg CO2 - equivalents per kg product)",
                                         data:chart_y,
                                         backgroundColor: 'rgba(0,150,136,0.7)',
                                         hoverBackgroundColor: 'rgba(255,152,0,0.7)'
@@ -336,7 +338,6 @@
                             select_data = dataset;
                         }
                     </script>
-                </section>
             </div>
         </section>
         
