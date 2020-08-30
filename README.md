@@ -1,3 +1,4 @@
 # Trailblazers
 
-docs folder contains all of files required for the web application
+- docs: contains files required for the web application
+- datasets: contains datasets required for Iteration 1
