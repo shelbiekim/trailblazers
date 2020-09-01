@@ -33,7 +33,7 @@
 -->
 <html>
 	<head>
-		<title>Trailblazers</title>
+		<title>Nutrient - Trailblazers</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -48,12 +48,21 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon_io/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon_io/android-chrome-192x192.png">
+        <link rel="manifest" href="/favicon_io/site.webmanifest">
+        <link rel="mask-icon" href="/favicon_io/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header" class="skel-layers-fixed">
-				<h1><a href="about_us.html">Trailblazers</a></h1>
+                <h1>Trailblazers</h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -223,7 +232,6 @@
                                         table.innerHTML += row;
                                     }
                                 }
-
                         </script>
                         <br /><br />
                         <table id="table">
@@ -234,7 +242,6 @@
                                 <th>Value</th>
                             </tr>
                             <tbody id="myTable">
-
                             </tbody>
                         </table>
 					</section>
@@ -245,9 +252,9 @@
 			<footer id="footer">
 				<div class="container">
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+						<li>Copyright &copy; 2020 Trailblazers.</li>
+                        <li>Design: TEMPLATED</li>
+                        <li>Images: Pexels</li>
 					</ul>
 				</div>
 			</footer>
