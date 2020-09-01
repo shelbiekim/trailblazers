@@ -1,0 +1,507 @@
+,Food_name,Descrip,ingredient,Value
+0,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Energy_kcal,371
+1,Bread(rye),"Bread, rye",Energy_kcal,259
+2,Beer,"Alcoholic beverage, beer, regular, all",Energy_kcal,43
+3,Oatmeal,"Babyfood, cereal, oatmeal, dry",Energy_kcal,393
+4,Rice,"Rice, white, long-grain, regular, raw, enriched",Energy_kcal,365
+5,Potatoes,"Potatoes, raw, skin",Energy_kcal,58
+6,Cassava,"Cassava, raw",Energy_kcal,160
+7,Groundnuts,"Spices, nutmeg, ground",Energy_kcal,525
+8,Palm oil,"Oil, palm",Energy_kcal,884
+9,Rapeseed oil,"Oil, grapeseed",Energy_kcal,884
+10,Brassicas,"Cabbage, mustard, salted",Energy_kcal,28
+11,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Energy_kcal,884
+12,Peas,"Peas, green, raw",Energy_kcal,81
+13,Nuts(cashew),"Nuts, cashew nuts, raw",Energy_kcal,553
+14,Soymilk,"Soymilk, original and vanilla, unfortified",Energy_kcal,54
+15,Tofu,"MORI-NU, Tofu, silken, soft",Energy_kcal,55
+16,Olive oil,"Oil, olive, salad or cooking",Energy_kcal,884
+17,Tomatoes,"Tomatoes, green, raw",Energy_kcal,23
+18,Onion,"Onions, raw",Energy_kcal,40
+19,Orange,"Oranges, raw, all commercial varieties",Energy_kcal,47
+20,Bananas,"Bananas, raw",Energy_kcal,89
+21,Apples,"Apples, raw, with skin",Energy_kcal,52
+22,Blackberries,"Blackberries, raw",Energy_kcal,43
+23,Blueberries,"Blueberries, raw",Energy_kcal,57
+24,Strawberries,"Strawberries, raw",Energy_kcal,32
+25,Wine,"Alcoholic beverage, wine, table, all",Energy_kcal,83
+26,Coffee(instant),"Coffee, instant, regular, powder",Energy_kcal,353
+27,Chocolate,Chocolate syrup,Energy_kcal,279
+28,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Energy_kcal,178
+29,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Energy_kcal,278
+30,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Energy_kcal,141
+31,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Energy_kcal,169
+32,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Energy_kcal,310
+33,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Energy_kcal,201
+34,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Energy_kcal,245
+35,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Energy_kcal,198
+36,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Energy_kcal,236
+37,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Energy_kcal,243
+38,Milk,"Milk, filled, fluid, with lauric acid oil",Energy_kcal,63
+39,Cheese,"Cheese, brick",Energy_kcal,371
+40,Egg,"Egg, whole, raw, fresh",Energy_kcal,143
+41,Fish(farmed),"Fish, catfish, channel, farmed, raw",Energy_kcal,119
+42,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Energy_kcal,72
+43,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Energy_kcal,61
+44,Grapes,"Grapes, american type (slip skin), raw",Energy_kcal,67
+45,Beans,"Beans, yellow, mature seeds, raw",Energy_kcal,345
+46,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Protein_g,7.8
+47,Bread(rye),"Bread, rye",Protein_g,8.5
+48,Beer,"Alcoholic beverage, beer, regular, all",Protein_g,0.46
+49,Oatmeal,"Babyfood, cereal, oatmeal, dry",Protein_g,13.07
+50,Rice,"Rice, white, long-grain, regular, raw, enriched",Protein_g,7.13
+51,Potatoes,"Potatoes, raw, skin",Protein_g,2.57
+52,Cassava,"Cassava, raw",Protein_g,1.36
+53,Groundnuts,"Spices, nutmeg, ground",Protein_g,5.84
+54,Palm oil,"Oil, palm",Protein_g,0.0
+55,Rapeseed oil,"Oil, grapeseed",Protein_g,0.0
+56,Brassicas,"Cabbage, mustard, salted",Protein_g,1.1
+57,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Protein_g,0.0
+58,Peas,"Peas, green, raw",Protein_g,5.42
+59,Nuts(cashew),"Nuts, cashew nuts, raw",Protein_g,18.22
+60,Soymilk,"Soymilk, original and vanilla, unfortified",Protein_g,3.27
+61,Tofu,"MORI-NU, Tofu, silken, soft",Protein_g,4.8
+62,Olive oil,"Oil, olive, salad or cooking",Protein_g,0.0
+63,Tomatoes,"Tomatoes, green, raw",Protein_g,1.2
+64,Onion,"Onions, raw",Protein_g,1.1
+65,Orange,"Oranges, raw, all commercial varieties",Protein_g,0.94
+66,Bananas,"Bananas, raw",Protein_g,1.09
+67,Apples,"Apples, raw, with skin",Protein_g,0.26
+68,Blackberries,"Blackberries, raw",Protein_g,1.39
+69,Blueberries,"Blueberries, raw",Protein_g,0.74
+70,Strawberries,"Strawberries, raw",Protein_g,0.67
+71,Wine,"Alcoholic beverage, wine, table, all",Protein_g,0.07
+72,Coffee(instant),"Coffee, instant, regular, powder",Protein_g,12.2
+73,Chocolate,Chocolate syrup,Protein_g,2.1
+74,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Protein_g,27.96
+75,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Protein_g,18.12
+76,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Protein_g,21.57
+77,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Protein_g,19.98
+78,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Protein_g,16.32
+79,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Protein_g,18.58
+80,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Protein_g,17.43
+81,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Protein_g,19.74
+82,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Protein_g,17.18
+83,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Protein_g,14.72
+84,Milk,"Milk, filled, fluid, with lauric acid oil",Protein_g,3.33
+85,Cheese,"Cheese, brick",Protein_g,23.24
+86,Egg,"Egg, whole, raw, fresh",Protein_g,12.56
+87,Fish(farmed),"Fish, catfish, channel, farmed, raw",Protein_g,15.23
+88,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Protein_g,14.85
+89,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Protein_g,1.5
+90,Grapes,"Grapes, american type (slip skin), raw",Protein_g,0.63
+91,Beans,"Beans, yellow, mature seeds, raw",Protein_g,22.0
+92,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Fat_g,3.4
+93,Bread(rye),"Bread, rye",Fat_g,3.3
+94,Beer,"Alcoholic beverage, beer, regular, all",Fat_g,0.0
+95,Oatmeal,"Babyfood, cereal, oatmeal, dry",Fat_g,6.6
+96,Rice,"Rice, white, long-grain, regular, raw, enriched",Fat_g,0.66
+97,Potatoes,"Potatoes, raw, skin",Fat_g,0.1
+98,Cassava,"Cassava, raw",Fat_g,0.28
+99,Groundnuts,"Spices, nutmeg, ground",Fat_g,36.31
+100,Palm oil,"Oil, palm",Fat_g,100.0
+101,Rapeseed oil,"Oil, grapeseed",Fat_g,100.0
+102,Brassicas,"Cabbage, mustard, salted",Fat_g,0.1
+103,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Fat_g,100.0
+104,Peas,"Peas, green, raw",Fat_g,0.4
+105,Nuts(cashew),"Nuts, cashew nuts, raw",Fat_g,43.85
+106,Soymilk,"Soymilk, original and vanilla, unfortified",Fat_g,1.75
+107,Tofu,"MORI-NU, Tofu, silken, soft",Fat_g,2.7
+108,Olive oil,"Oil, olive, salad or cooking",Fat_g,100.0
+109,Tomatoes,"Tomatoes, green, raw",Fat_g,0.2
+110,Onion,"Onions, raw",Fat_g,0.1
+111,Orange,"Oranges, raw, all commercial varieties",Fat_g,0.12
+112,Bananas,"Bananas, raw",Fat_g,0.33
+113,Apples,"Apples, raw, with skin",Fat_g,0.17
+114,Blackberries,"Blackberries, raw",Fat_g,0.49
+115,Blueberries,"Blueberries, raw",Fat_g,0.33
+116,Strawberries,"Strawberries, raw",Fat_g,0.3
+117,Wine,"Alcoholic beverage, wine, table, all",Fat_g,0.0
+118,Coffee(instant),"Coffee, instant, regular, powder",Fat_g,0.5
+119,Chocolate,Chocolate syrup,Fat_g,1.13
+120,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Fat_g,6.48
+121,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Fat_g,22.15
+122,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Fat_g,5.47
+123,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Fat_g,9.23
+124,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Fat_g,26.63
+125,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Fat_g,13.49
+126,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Fat_g,18.87
+127,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Fat_g,12.58
+128,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Fat_g,17.99
+129,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Fat_g,19.98
+130,Milk,"Milk, filled, fluid, with lauric acid oil",Fat_g,3.4
+131,Cheese,"Cheese, brick",Fat_g,29.68
+132,Egg,"Egg, whole, raw, fresh",Fat_g,9.51
+133,Fish(farmed),"Fish, catfish, channel, farmed, raw",Fat_g,5.94
+134,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Fat_g,0.97
+135,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Fat_g,0.3
+136,Grapes,"Grapes, american type (slip skin), raw",Fat_g,0.35
+137,Beans,"Beans, yellow, mature seeds, raw",Fat_g,2.6
+138,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Carb_g,83.3
+139,Bread(rye),"Bread, rye",Carb_g,48.3
+140,Beer,"Alcoholic beverage, beer, regular, all",Carb_g,3.55
+141,Oatmeal,"Babyfood, cereal, oatmeal, dry",Carb_g,71.05
+142,Rice,"Rice, white, long-grain, regular, raw, enriched",Carb_g,79.95
+143,Potatoes,"Potatoes, raw, skin",Carb_g,12.44
+144,Cassava,"Cassava, raw",Carb_g,38.06
+145,Groundnuts,"Spices, nutmeg, ground",Carb_g,49.29
+146,Palm oil,"Oil, palm",Carb_g,0.0
+147,Rapeseed oil,"Oil, grapeseed",Carb_g,0.0
+148,Brassicas,"Cabbage, mustard, salted",Carb_g,5.63
+149,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Carb_g,0.0
+150,Peas,"Peas, green, raw",Carb_g,14.45
+151,Nuts(cashew),"Nuts, cashew nuts, raw",Carb_g,30.19
+152,Soymilk,"Soymilk, original and vanilla, unfortified",Carb_g,6.28
+153,Tofu,"MORI-NU, Tofu, silken, soft",Carb_g,2.9
+154,Olive oil,"Oil, olive, salad or cooking",Carb_g,0.0
+155,Tomatoes,"Tomatoes, green, raw",Carb_g,5.1
+156,Onion,"Onions, raw",Carb_g,9.34
+157,Orange,"Oranges, raw, all commercial varieties",Carb_g,11.75
+158,Bananas,"Bananas, raw",Carb_g,22.84
+159,Apples,"Apples, raw, with skin",Carb_g,13.81
+160,Blackberries,"Blackberries, raw",Carb_g,9.61
+161,Blueberries,"Blueberries, raw",Carb_g,14.49
+162,Strawberries,"Strawberries, raw",Carb_g,7.68
+163,Wine,"Alcoholic beverage, wine, table, all",Carb_g,2.72
+164,Coffee(instant),"Coffee, instant, regular, powder",Carb_g,75.4
+165,Chocolate,Chocolate syrup,Carb_g,65.1
+166,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Carb_g,0.0
+167,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Carb_g,0.12
+168,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Carb_g,0.0
+169,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Carb_g,0.0
+170,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Carb_g,0.0
+171,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Carb_g,0.0
+172,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Carb_g,0.0
+173,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Carb_g,0.0
+174,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Carb_g,0.0
+175,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Carb_g,0.0
+176,Milk,"Milk, filled, fluid, with lauric acid oil",Carb_g,4.74
+177,Cheese,"Cheese, brick",Carb_g,2.79
+178,Egg,"Egg, whole, raw, fresh",Carb_g,0.72
+179,Fish(farmed),"Fish, catfish, channel, farmed, raw",Carb_g,0.0
+180,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Carb_g,0.0
+181,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Carb_g,14.15
+182,Grapes,"Grapes, american type (slip skin), raw",Carb_g,17.15
+183,Beans,"Beans, yellow, mature seeds, raw",Carb_g,60.7
+184,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Sugar_g,22.1
+185,Bread(rye),"Bread, rye",Sugar_g,3.85
+186,Beer,"Alcoholic beverage, beer, regular, all",Sugar_g,0.0
+187,Oatmeal,"Babyfood, cereal, oatmeal, dry",Sugar_g,3.84
+188,Rice,"Rice, white, long-grain, regular, raw, enriched",Sugar_g,0.12
+189,Potatoes,"Potatoes, raw, skin",Sugar_g,0.0
+190,Cassava,"Cassava, raw",Sugar_g,1.7
+191,Groundnuts,"Spices, nutmeg, ground",Sugar_g,2.99
+192,Palm oil,"Oil, palm",Sugar_g,0.0
+193,Rapeseed oil,"Oil, grapeseed",Sugar_g,0.0
+194,Brassicas,"Cabbage, mustard, salted",Sugar_g,1.4
+195,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Sugar_g,0.0
+196,Peas,"Peas, green, raw",Sugar_g,5.67
+197,Nuts(cashew),"Nuts, cashew nuts, raw",Sugar_g,5.91
+198,Soymilk,"Soymilk, original and vanilla, unfortified",Sugar_g,3.99
+199,Tofu,"MORI-NU, Tofu, silken, soft",Sugar_g,1.31
+200,Olive oil,"Oil, olive, salad or cooking",Sugar_g,0.0
+201,Tomatoes,"Tomatoes, green, raw",Sugar_g,4.0
+202,Onion,"Onions, raw",Sugar_g,4.24
+203,Orange,"Oranges, raw, all commercial varieties",Sugar_g,9.35
+204,Bananas,"Bananas, raw",Sugar_g,12.23
+205,Apples,"Apples, raw, with skin",Sugar_g,10.39
+206,Blackberries,"Blackberries, raw",Sugar_g,4.88
+207,Blueberries,"Blueberries, raw",Sugar_g,9.96
+208,Strawberries,"Strawberries, raw",Sugar_g,4.89
+209,Wine,"Alcoholic beverage, wine, table, all",Sugar_g,0.79
+210,Coffee(instant),"Coffee, instant, regular, powder",Sugar_g,0.0
+211,Chocolate,Chocolate syrup,Sugar_g,49.65
+212,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Sugar_g,0.0
+213,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Sugar_g,0.0
+214,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Sugar_g,0.0
+215,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Sugar_g,0.0
+216,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Sugar_g,0.0
+217,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Sugar_g,0.0
+218,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Sugar_g,0.0
+219,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Sugar_g,0.0
+220,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Sugar_g,0.0
+221,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Sugar_g,0.0
+222,Milk,"Milk, filled, fluid, with lauric acid oil",Sugar_g,4.74
+223,Cheese,"Cheese, brick",Sugar_g,0.51
+224,Egg,"Egg, whole, raw, fresh",Sugar_g,0.37
+225,Fish(farmed),"Fish, catfish, channel, farmed, raw",Sugar_g,0.0
+226,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Sugar_g,0.0
+227,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Sugar_g,3.9
+228,Grapes,"Grapes, american type (slip skin), raw",Sugar_g,16.25
+229,Beans,"Beans, yellow, mature seeds, raw",Sugar_g,0.0
+230,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Fiber_g,6.1
+231,Bread(rye),"Bread, rye",Fiber_g,5.8
+232,Beer,"Alcoholic beverage, beer, regular, all",Fiber_g,0.0
+233,Oatmeal,"Babyfood, cereal, oatmeal, dry",Fiber_g,9.0
+234,Rice,"Rice, white, long-grain, regular, raw, enriched",Fiber_g,1.3
+235,Potatoes,"Potatoes, raw, skin",Fiber_g,2.5
+236,Cassava,"Cassava, raw",Fiber_g,1.8
+237,Groundnuts,"Spices, nutmeg, ground",Fiber_g,20.8
+238,Palm oil,"Oil, palm",Fiber_g,0.0
+239,Rapeseed oil,"Oil, grapeseed",Fiber_g,0.0
+240,Brassicas,"Cabbage, mustard, salted",Fiber_g,3.1
+241,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Fiber_g,0.0
+242,Peas,"Peas, green, raw",Fiber_g,5.1
+243,Nuts(cashew),"Nuts, cashew nuts, raw",Fiber_g,3.3
+244,Soymilk,"Soymilk, original and vanilla, unfortified",Fiber_g,0.6
+245,Tofu,"MORI-NU, Tofu, silken, soft",Fiber_g,0.1
+246,Olive oil,"Oil, olive, salad or cooking",Fiber_g,0.0
+247,Tomatoes,"Tomatoes, green, raw",Fiber_g,1.1
+248,Onion,"Onions, raw",Fiber_g,1.7
+249,Orange,"Oranges, raw, all commercial varieties",Fiber_g,2.4
+250,Bananas,"Bananas, raw",Fiber_g,2.6
+251,Apples,"Apples, raw, with skin",Fiber_g,2.4
+252,Blackberries,"Blackberries, raw",Fiber_g,5.3
+253,Blueberries,"Blueberries, raw",Fiber_g,2.4
+254,Strawberries,"Strawberries, raw",Fiber_g,2.0
+255,Wine,"Alcoholic beverage, wine, table, all",Fiber_g,0.0
+256,Coffee(instant),"Coffee, instant, regular, powder",Fiber_g,0.0
+257,Chocolate,Chocolate syrup,Fiber_g,2.6
+258,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Fiber_g,0.0
+259,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Fiber_g,0.0
+260,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Fiber_g,0.0
+261,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Fiber_g,0.0
+262,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Fiber_g,0.0
+263,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Fiber_g,0.0
+264,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Fiber_g,0.0
+265,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Fiber_g,0.0
+266,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Fiber_g,0.0
+267,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Fiber_g,0.0
+268,Milk,"Milk, filled, fluid, with lauric acid oil",Fiber_g,0.0
+269,Cheese,"Cheese, brick",Fiber_g,0.0
+270,Egg,"Egg, whole, raw, fresh",Fiber_g,0.0
+271,Fish(farmed),"Fish, catfish, channel, farmed, raw",Fiber_g,0.0
+272,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Fiber_g,0.0
+273,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Fiber_g,1.8
+274,Grapes,"Grapes, american type (slip skin), raw",Fiber_g,0.9
+275,Beans,"Beans, yellow, mature seeds, raw",Fiber_g,25.1
+276,Maize,"Cereals ready-to-eat, KASHI Simply Maize",VitA_mcg,0
+277,Bread(rye),"Bread, rye",VitA_mcg,0
+278,Beer,"Alcoholic beverage, beer, regular, all",VitA_mcg,0
+279,Oatmeal,"Babyfood, cereal, oatmeal, dry",VitA_mcg,0
+280,Rice,"Rice, white, long-grain, regular, raw, enriched",VitA_mcg,0
+281,Potatoes,"Potatoes, raw, skin",VitA_mcg,0
+282,Cassava,"Cassava, raw",VitA_mcg,1
+283,Groundnuts,"Spices, nutmeg, ground",VitA_mcg,5
+284,Palm oil,"Oil, palm",VitA_mcg,0
+285,Rapeseed oil,"Oil, grapeseed",VitA_mcg,0
+286,Brassicas,"Cabbage, mustard, salted",VitA_mcg,49
+287,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",VitA_mcg,0
+288,Peas,"Peas, green, raw",VitA_mcg,38
+289,Nuts(cashew),"Nuts, cashew nuts, raw",VitA_mcg,0
+290,Soymilk,"Soymilk, original and vanilla, unfortified",VitA_mcg,0
+291,Tofu,"MORI-NU, Tofu, silken, soft",VitA_mcg,0
+292,Olive oil,"Oil, olive, salad or cooking",VitA_mcg,0
+293,Tomatoes,"Tomatoes, green, raw",VitA_mcg,32
+294,Onion,"Onions, raw",VitA_mcg,0
+295,Orange,"Oranges, raw, all commercial varieties",VitA_mcg,11
+296,Bananas,"Bananas, raw",VitA_mcg,3
+297,Apples,"Apples, raw, with skin",VitA_mcg,3
+298,Blackberries,"Blackberries, raw",VitA_mcg,11
+299,Blueberries,"Blueberries, raw",VitA_mcg,3
+300,Strawberries,"Strawberries, raw",VitA_mcg,1
+301,Wine,"Alcoholic beverage, wine, table, all",VitA_mcg,0
+302,Coffee(instant),"Coffee, instant, regular, powder",VitA_mcg,0
+303,Chocolate,Chocolate syrup,VitA_mcg,0
+304,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",VitA_mcg,0
+305,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",VitA_mcg,0
+306,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",VitA_mcg,0
+307,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",VitA_mcg,0
+308,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitA_mcg,0
+309,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitA_mcg,0
+310,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",VitA_mcg,0
+311,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",VitA_mcg,2
+312,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",VitA_mcg,2
+313,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",VitA_mcg,45
+314,Milk,"Milk, filled, fluid, with lauric acid oil",VitA_mcg,2
+315,Cheese,"Cheese, brick",VitA_mcg,292
+316,Egg,"Egg, whole, raw, fresh",VitA_mcg,160
+317,Fish(farmed),"Fish, catfish, channel, farmed, raw",VitA_mcg,0
+318,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",VitA_mcg,15
+319,Leeks,"Leeks, (bulb and lower leaf-portion), raw",VitA_mcg,83
+320,Grapes,"Grapes, american type (slip skin), raw",VitA_mcg,5
+321,Beans,"Beans, yellow, mature seeds, raw",VitA_mcg,0
+322,Maize,"Cereals ready-to-eat, KASHI Simply Maize",VitC_mg,0.0
+323,Bread(rye),"Bread, rye",VitC_mg,0.4
+324,Beer,"Alcoholic beverage, beer, regular, all",VitC_mg,0.0
+325,Oatmeal,"Babyfood, cereal, oatmeal, dry",VitC_mg,0.0
+326,Rice,"Rice, white, long-grain, regular, raw, enriched",VitC_mg,0.0
+327,Potatoes,"Potatoes, raw, skin",VitC_mg,11.4
+328,Cassava,"Cassava, raw",VitC_mg,20.6
+329,Groundnuts,"Spices, nutmeg, ground",VitC_mg,3.0
+330,Palm oil,"Oil, palm",VitC_mg,0.0
+331,Rapeseed oil,"Oil, grapeseed",VitC_mg,0.0
+332,Brassicas,"Cabbage, mustard, salted",VitC_mg,0.0
+333,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",VitC_mg,0.0
+334,Peas,"Peas, green, raw",VitC_mg,40.0
+335,Nuts(cashew),"Nuts, cashew nuts, raw",VitC_mg,0.5
+336,Soymilk,"Soymilk, original and vanilla, unfortified",VitC_mg,0.0
+337,Tofu,"MORI-NU, Tofu, silken, soft",VitC_mg,0.0
+338,Olive oil,"Oil, olive, salad or cooking",VitC_mg,0.0
+339,Tomatoes,"Tomatoes, green, raw",VitC_mg,23.4
+340,Onion,"Onions, raw",VitC_mg,7.4
+341,Orange,"Oranges, raw, all commercial varieties",VitC_mg,53.2
+342,Bananas,"Bananas, raw",VitC_mg,8.7
+343,Apples,"Apples, raw, with skin",VitC_mg,4.6
+344,Blackberries,"Blackberries, raw",VitC_mg,21.0
+345,Blueberries,"Blueberries, raw",VitC_mg,9.7
+346,Strawberries,"Strawberries, raw",VitC_mg,58.8
+347,Wine,"Alcoholic beverage, wine, table, all",VitC_mg,0.0
+348,Coffee(instant),"Coffee, instant, regular, powder",VitC_mg,0.0
+349,Chocolate,Chocolate syrup,VitC_mg,0.2
+350,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",VitC_mg,0.0
+351,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",VitC_mg,0.0
+352,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",VitC_mg,0.0
+353,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",VitC_mg,0.0
+354,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitC_mg,0.0
+355,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitC_mg,0.0
+356,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",VitC_mg,0.7
+357,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",VitC_mg,0.6
+358,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",VitC_mg,0.7
+359,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",VitC_mg,2.0
+360,Milk,"Milk, filled, fluid, with lauric acid oil",VitC_mg,0.9
+361,Cheese,"Cheese, brick",VitC_mg,0.0
+362,Egg,"Egg, whole, raw, fresh",VitC_mg,0.0
+363,Fish(farmed),"Fish, catfish, channel, farmed, raw",VitC_mg,0.0
+364,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",VitC_mg,0.5
+365,Leeks,"Leeks, (bulb and lower leaf-portion), raw",VitC_mg,12.0
+366,Grapes,"Grapes, american type (slip skin), raw",VitC_mg,4.0
+367,Beans,"Beans, yellow, mature seeds, raw",VitC_mg,0.0
+368,Maize,"Cereals ready-to-eat, KASHI Simply Maize",VitE_mg,0.0
+369,Bread(rye),"Bread, rye",VitE_mg,0.33
+370,Beer,"Alcoholic beverage, beer, regular, all",VitE_mg,0.0
+371,Oatmeal,"Babyfood, cereal, oatmeal, dry",VitE_mg,4.95
+372,Rice,"Rice, white, long-grain, regular, raw, enriched",VitE_mg,0.11
+373,Potatoes,"Potatoes, raw, skin",VitE_mg,0.0
+374,Cassava,"Cassava, raw",VitE_mg,0.19
+375,Groundnuts,"Spices, nutmeg, ground",VitE_mg,0.0
+376,Palm oil,"Oil, palm",VitE_mg,15.94
+377,Rapeseed oil,"Oil, grapeseed",VitE_mg,28.8
+378,Brassicas,"Cabbage, mustard, salted",VitE_mg,0.02
+379,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",VitE_mg,41.08
+380,Peas,"Peas, green, raw",VitE_mg,0.13
+381,Nuts(cashew),"Nuts, cashew nuts, raw",VitE_mg,0.9
+382,Soymilk,"Soymilk, original and vanilla, unfortified",VitE_mg,0.11
+383,Tofu,"MORI-NU, Tofu, silken, soft",VitE_mg,0.0
+384,Olive oil,"Oil, olive, salad or cooking",VitE_mg,14.35
+385,Tomatoes,"Tomatoes, green, raw",VitE_mg,0.38
+386,Onion,"Onions, raw",VitE_mg,0.02
+387,Orange,"Oranges, raw, all commercial varieties",VitE_mg,0.18
+388,Bananas,"Bananas, raw",VitE_mg,0.1
+389,Apples,"Apples, raw, with skin",VitE_mg,0.18
+390,Blackberries,"Blackberries, raw",VitE_mg,1.17
+391,Blueberries,"Blueberries, raw",VitE_mg,0.57
+392,Strawberries,"Strawberries, raw",VitE_mg,0.29
+393,Wine,"Alcoholic beverage, wine, table, all",VitE_mg,0.0
+394,Coffee(instant),"Coffee, instant, regular, powder",VitE_mg,0.0
+395,Chocolate,Chocolate syrup,VitE_mg,0.02
+396,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",VitE_mg,0.37
+397,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",VitE_mg,0.44
+398,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",VitE_mg,0.3
+399,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",VitE_mg,0.19
+400,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitE_mg,0.18
+401,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",VitE_mg,0.21
+402,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",VitE_mg,0.0
+403,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",VitE_mg,0.21
+404,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",VitE_mg,0.19
+405,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",VitE_mg,0.0
+406,Milk,"Milk, filled, fluid, with lauric acid oil",VitE_mg,0.13
+407,Cheese,"Cheese, brick",VitE_mg,0.26
+408,Egg,"Egg, whole, raw, fresh",VitE_mg,1.05
+409,Fish(farmed),"Fish, catfish, channel, farmed, raw",VitE_mg,0.81
+410,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",VitE_mg,0.0
+411,Leeks,"Leeks, (bulb and lower leaf-portion), raw",VitE_mg,0.92
+412,Grapes,"Grapes, american type (slip skin), raw",VitE_mg,0.19
+413,Beans,"Beans, yellow, mature seeds, raw",VitE_mg,0.0
+414,Maize,"Cereals ready-to-eat, KASHI Simply Maize",Calcium_mg,0
+415,Bread(rye),"Bread, rye",Calcium_mg,73
+416,Beer,"Alcoholic beverage, beer, regular, all",Calcium_mg,4
+417,Oatmeal,"Babyfood, cereal, oatmeal, dry",Calcium_mg,707
+418,Rice,"Rice, white, long-grain, regular, raw, enriched",Calcium_mg,28
+419,Potatoes,"Potatoes, raw, skin",Calcium_mg,30
+420,Cassava,"Cassava, raw",Calcium_mg,16
+421,Groundnuts,"Spices, nutmeg, ground",Calcium_mg,184
+422,Palm oil,"Oil, palm",Calcium_mg,0
+423,Rapeseed oil,"Oil, grapeseed",Calcium_mg,0
+424,Brassicas,"Cabbage, mustard, salted",Calcium_mg,67
+425,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",Calcium_mg,0
+426,Peas,"Peas, green, raw",Calcium_mg,25
+427,Nuts(cashew),"Nuts, cashew nuts, raw",Calcium_mg,37
+428,Soymilk,"Soymilk, original and vanilla, unfortified",Calcium_mg,25
+429,Tofu,"MORI-NU, Tofu, silken, soft",Calcium_mg,31
+430,Olive oil,"Oil, olive, salad or cooking",Calcium_mg,1
+431,Tomatoes,"Tomatoes, green, raw",Calcium_mg,13
+432,Onion,"Onions, raw",Calcium_mg,23
+433,Orange,"Oranges, raw, all commercial varieties",Calcium_mg,40
+434,Bananas,"Bananas, raw",Calcium_mg,5
+435,Apples,"Apples, raw, with skin",Calcium_mg,6
+436,Blackberries,"Blackberries, raw",Calcium_mg,29
+437,Blueberries,"Blueberries, raw",Calcium_mg,6
+438,Strawberries,"Strawberries, raw",Calcium_mg,16
+439,Wine,"Alcoholic beverage, wine, table, all",Calcium_mg,8
+440,Coffee(instant),"Coffee, instant, regular, powder",Calcium_mg,141
+441,Chocolate,Chocolate syrup,Calcium_mg,14
+442,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",Calcium_mg,20
+443,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",Calcium_mg,15
+444,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",Calcium_mg,24
+445,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",Calcium_mg,12
+446,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Calcium_mg,15
+447,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",Calcium_mg,8
+448,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",Calcium_mg,5
+449,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",Calcium_mg,18
+450,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",Calcium_mg,15
+451,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",Calcium_mg,187
+452,Milk,"Milk, filled, fluid, with lauric acid oil",Calcium_mg,128
+453,Cheese,"Cheese, brick",Calcium_mg,674
+454,Egg,"Egg, whole, raw, fresh",Calcium_mg,56
+455,Fish(farmed),"Fish, catfish, channel, farmed, raw",Calcium_mg,8
+456,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",Calcium_mg,25
+457,Leeks,"Leeks, (bulb and lower leaf-portion), raw",Calcium_mg,59
+458,Grapes,"Grapes, american type (slip skin), raw",Calcium_mg,14
+459,Beans,"Beans, yellow, mature seeds, raw",Calcium_mg,166
+460,Maize,"Cereals ready-to-eat, KASHI Simply Maize",sum_emission,1.1
+461,Bread(rye),"Bread, rye",sum_emission,1.4
+462,Beer,"Alcoholic beverage, beer, regular, all",sum_emission,1.1
+463,Oatmeal,"Babyfood, cereal, oatmeal, dry",sum_emission,1.6
+464,Rice,"Rice, white, long-grain, regular, raw, enriched",sum_emission,4.0
+465,Potatoes,"Potatoes, raw, skin",sum_emission,0.3
+466,Cassava,"Cassava, raw",sum_emission,0.9
+467,Groundnuts,"Spices, nutmeg, ground",sum_emission,2.4
+468,Palm oil,"Oil, palm",sum_emission,7.6
+469,Rapeseed oil,"Oil, grapeseed",sum_emission,3.7
+470,Brassicas,"Cabbage, mustard, salted",sum_emission,0.4
+471,Sunflower oil,"Oil, sunflower, linoleic, (approx. 65%)",sum_emission,3.5
+472,Peas,"Peas, green, raw",sum_emission,0.8
+473,Nuts(cashew),"Nuts, cashew nuts, raw",sum_emission,0.2
+474,Soymilk,"Soymilk, original and vanilla, unfortified",sum_emission,1.0
+475,Tofu,"MORI-NU, Tofu, silken, soft",sum_emission,3.0
+476,Olive oil,"Oil, olive, salad or cooking",sum_emission,6.0
+477,Tomatoes,"Tomatoes, green, raw",sum_emission,1.4
+478,Onion,"Onions, raw",sum_emission,0.3
+479,Orange,"Oranges, raw, all commercial varieties",sum_emission,0.3
+480,Bananas,"Bananas, raw",sum_emission,0.8
+481,Apples,"Apples, raw, with skin",sum_emission,0.3
+482,Blackberries,"Blackberries, raw",sum_emission,1.1
+483,Blueberries,"Blueberries, raw",sum_emission,1.1
+484,Strawberries,"Strawberries, raw",sum_emission,1.1
+485,Wine,"Alcoholic beverage, wine, table, all",sum_emission,1.4
+486,Coffee(instant),"Coffee, instant, regular, powder",sum_emission,16.5
+487,Chocolate,Chocolate syrup,sum_emission,18.7
+488,Beef(steak),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",sum_emission,59.6
+489,Beef(brisket),"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",sum_emission,59.6
+490,Beef(flank),"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",sum_emission,59.6
+491,Lamb(rib),"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",sum_emission,24.5
+492,Lamb(loin),"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",sum_emission,24.5
+493,Lamb(shank),"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",sum_emission,24.5
+494,Pork(leg),"Pork, fresh, leg (ham), whole, separable lean and fat, raw",sum_emission,7.2
+495,Pork(loin),"Pork, fresh, loin, whole, separable lean and fat, raw",sum_emission,7.2
+496,Pork(shoulder),"Pork, fresh, shoulder, whole, separable lean and fat, raw",sum_emission,7.2
+497,Poultry(hens),"Poultry, mechanically deboned, from mature hens, raw",sum_emission,6.1
+498,Milk,"Milk, filled, fluid, with lauric acid oil",sum_emission,2.8
+499,Cheese,"Cheese, brick",sum_emission,21.2
+500,Egg,"Egg, whole, raw, fresh",sum_emission,4.5
+501,Fish(farmed),"Fish, catfish, channel, farmed, raw",sum_emission,5.1
+502,Shrimp(farmed),"Crustaceans, crayfish, mixed species, farmed, raw",sum_emission,11.8
+503,Leeks,"Leeks, (bulb and lower leaf-portion), raw",sum_emission,0.3
+504,Grapes,"Grapes, american type (slip skin), raw",sum_emission,1.1
+505,Beans,"Beans, yellow, mature seeds, raw",sum_emission,1.6
