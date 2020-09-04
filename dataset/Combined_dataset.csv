@@ -1,0 +1,70 @@
+,Food_name,Food_Group,Descrip,Energy_kcal,Protein_g,Fat_g,Carb_g,Sugar_g,Fiber_g,VitA_mcg,VitC_mg,VitE_mg,Calcium_mg,sum_emission
+0,Maize,Vegetables,"Cereals ready-to-eat, KASHI Simply Maize",371,7.8,3.4,83.3,22.1,6.1,0,0.0,0.0,0,0.11
+1,Potatoes,Vegetables,"Potatoes, raw, skin",58,2.57,0.1,12.44,0.0,2.5,0,11.4,0.0,30,0.03
+2,Cassava,Vegetables,"Cassava, raw",160,1.36,0.28,38.06,1.7,1.8,1,20.6,0.19,16,0.09
+3,Brassicas,Vegetables,"Cabbage, mustard, salted",28,1.1,0.1,5.63,1.4,3.1,49,0.0,0.02,67,0.04
+4,Peas,Vegetables,"Peas, green, raw",81,5.42,0.4,14.45,5.67,5.1,38,40.0,0.13,25,0.08
+5,Tomatoes,Vegetables,"Tomatoes, green, raw",23,1.2,0.2,5.1,4.0,1.1,32,23.4,0.38,13,0.14
+6,Onion,Vegetables,"Onions, raw",40,1.1,0.1,9.34,4.24,1.7,0,7.4,0.02,23,0.03
+7,Leeks,Vegetables,"Leeks, (bulb and lower leaf-portion), raw",61,1.5,0.3,14.15,3.9,1.8,83,12.0,0.92,59,0.03
+8,Eggplant,Vegetables,"Eggplant, raw",25,0.98,0.18,5.88,3.53,3.0,1,2.2,0.3,9,0.41
+9,Bamboo Shoot,Vegetables,"Bamboo shoots, raw",27,2.6,0.3,5.2,3.0,2.2,1,4.0,1.0,13,0.41
+10,Garlic,Vegetables,"Garlic, raw",149,6.36,0.5,33.06,1.0,2.1,0,31.2,0.08,181,0.11
+11,Mushrooms,Vegetables,"Mushrooms, shiitake, raw",34,2.24,0.49,6.79,2.38,2.5,0,0.0,0.0,2,0.41
+12,Okra,Vegetables,"Okra, raw",33,1.93,0.19,7.45,1.48,3.2,36,23.0,0.27,82,0.41
+13,Spinach,Vegetables,"Spinach, raw",23,2.86,0.39,3.63,0.42,2.2,469,28.1,2.03,99,0.14
+14,Sweetcorn,Vegetables,"Corn, sweet, white, raw",86,3.22,1.18,19.02,3.22,2.7,0,6.8,0.07,2,0.41
+15,Cucumber,Vegetables,"Cucumber, with peel, raw",15,0.65,0.11,3.63,1.67,0.5,5,2.8,0.03,16,0.06
+16,Lettuce,Vegetables,"Lettuce, green leaf, raw",15,1.36,0.15,2.87,0.78,1.3,370,9.2,0.22,36,0.07
+17,Orange,Fruits,"Oranges, raw, all commercial varieties",47,0.94,0.12,11.75,9.35,2.4,11,53.2,0.18,40,0.03
+18,Bananas,Fruits,"Bananas, raw",89,1.09,0.33,22.84,12.23,2.6,3,8.7,0.1,5,0.08
+19,Apples,Fruits,"Apples, raw, with skin",52,0.26,0.17,13.81,10.39,2.4,3,4.6,0.18,6,0.03
+20,Blackberries,Fruits,"Blackberries, raw",43,1.39,0.49,9.61,4.88,5.3,11,21.0,1.17,29,0.11
+21,Blueberries,Fruits,"Blueberries, raw",57,0.74,0.33,14.49,9.96,2.4,3,9.7,0.57,6,0.11
+22,Strawberries,Fruits,"Strawberries, raw",32,0.67,0.3,7.68,4.89,2.0,1,58.8,0.29,16,0.11
+23,Grapes,Fruits,"Grapes, american type (slip skin), raw",67,0.63,0.35,17.15,16.25,0.9,5,4.0,0.19,14,0.11
+24,Pomegranate,Fruits,"Pomegranates, raw",83,1.67,1.17,18.7,13.67,4.0,0,10.2,0.6,10,0.13
+25,Watermelon,Fruits,"Watermelon, raw",30,0.61,0.15,7.55,6.2,0.4,28,8.1,0.05,7,0.13
+26,Soymilk,Dairy,"Soymilk, original and vanilla, unfortified",54,3.27,1.75,6.28,3.99,0.6,0,0.0,0.11,25,0.1
+27,Milk,Dairy,"Milk, filled, fluid, with lauric acid oil",63,3.33,3.4,4.74,4.74,0.0,2,0.9,0.13,128,0.28
+28,Cheese,Dairy,"Cheese, brick",371,23.24,29.68,2.79,0.51,0.0,292,0.0,0.26,674,2.12
+29,Milk(sheep),Dairy,"Milk, sheep, fluid",108,5.98,7.0,5.36,0.0,0.0,44,4.2,0.0,193,0.13
+30,Milk(nut),Dairy,"Nuts, coconut milk, raw (liquid expressed from grated meat and water)",230,2.29,23.84,5.54,3.34,2.2,0,2.8,0.15,16,0.51
+31,Cream,Dairy,"Cheese, cream",342,5.93,34.24,4.07,3.21,0.0,366,0.0,0.29,98,0.48
+32,Yogurt,Dairy,"Yogurt, plain, whole milk, 8 grams protein per 8 ounce",61,3.47,3.25,4.66,4.66,0.0,27,0.5,0.06,121,0.48
+33,Beer,Beverages,"Alcoholic beverage, beer, regular, all",43,0.46,0.0,3.55,0.0,0.0,0,0.0,0.0,4,0.11
+34,Wine,Beverages,"Alcoholic beverage, wine, table, all",83,0.07,0.0,2.72,0.79,0.0,0,0.0,0.0,8,0.14
+35,Coffee(instant),Beverages,"Coffee, instant, regular, powder",353,12.2,0.5,75.4,0.0,0.0,0,0.0,0.0,141,1.65
+36,Coca cola,Beverages,"Beverages, COCA-COLA, POWERADE, lemon-lime flavored, ready-to-drink",32,0.0,0.05,7.84,6.11,0.0,0,0.0,0.0,1,0.05
+37,Lemon Juice,Beverages,"Lemon juice, raw",22,0.35,0.24,6.9,2.52,0.3,0,38.7,0.15,6,0.05
+38,Fish(farmed),Fish & Shellfish,"Fish, catfish, channel, farmed, raw",119,15.23,5.94,0.0,0.0,0.0,0,0.0,0.81,8,0.51
+39,Shrimp(farmed),Fish & Shellfish,"Crustaceans, crayfish, mixed species, farmed, raw",72,14.85,0.97,0.0,0.0,0.0,15,0.5,0.0,25,1.18
+40,Trout,Fish & Shellfish,"Fish, trout, rainbow, farmed, raw",141,19.94,6.18,0.0,0.0,0.0,84,2.9,2.34,25,0.48
+41,Herring,Fish & Shellfish,"Fish, herring, Pacific, raw",195,16.39,13.88,0.0,0.0,0.0,32,0.0,0.0,83,0.16
+42,Salmon,Fish & Shellfish,"Fish, salmon, Atlantic, wild, raw",142,19.84,6.34,0.0,0.0,0.0,12,0.0,0.0,12,0.28
+43,Sardine,Fish & Shellfish,"Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",185,20.86,10.45,0.54,0.43,0.1,34,1.0,1.38,240,0.16
+44,Tuna,Fish & Shellfish,"Fish, tuna, fresh, bluefin, raw",144,23.33,4.9,0.0,0.0,0.0,655,0.0,1.0,8,0.42
+45,Mackerel,Fish & Shellfish,"Fish, mackerel, Atlantic, raw",205,18.6,13.89,0.0,0.0,0.0,50,0.4,1.52,12,0.12
+46,Bread(rye),Others,"Bread, rye",259,8.5,3.3,48.3,3.85,5.8,0,0.4,0.33,73,0.14
+47,Oatmeal,Others,"Babyfood, cereal, oatmeal, dry",393,13.07,6.6,71.05,3.84,9.0,0,0.0,4.95,707,0.16
+48,Rice,Others,"Rice, white, long-grain, regular, raw, enriched",365,7.13,0.66,79.95,0.12,1.3,0,0.0,0.11,28,0.4
+49,Groundnuts,Others,"Spices, nutmeg, ground",525,5.84,36.31,49.29,2.99,20.8,5,3.0,0.0,184,0.24
+50,Nuts(cashew),Others,"Nuts, cashew nuts, raw",553,18.22,43.85,30.19,5.91,3.3,0,0.5,0.9,37,0.02
+51,Tofu,Others,"MORI-NU, Tofu, silken, soft",55,4.8,2.7,2.9,1.31,0.1,0,0.0,0.0,31,0.3
+52,Chocolate,Others,Chocolate syrup,279,2.1,1.13,65.1,49.65,2.6,0,0.2,0.02,14,1.87
+53,Egg,Others,"Egg, whole, raw, fresh",143,12.56,9.51,0.72,0.37,0.0,160,0.0,1.05,56,0.45
+54,Beans,Others,"Beans, yellow, mature seeds, raw",345,22.0,2.6,60.7,0.0,25.1,0,0.0,0.0,166,0.16
+55,Palm oil,Oil,"Oil, palm",884,0.0,100.0,0.0,0.0,0.0,0,0.0,15.94,0,0.76
+56,Rapeseed oil,Oil,"Oil, grapeseed",884,0.0,100.0,0.0,0.0,0.0,0,0.0,28.8,0,0.37
+57,Sunflower oil,Oil,"Oil, sunflower, linoleic, (approx. 65%)",884,0.0,100.0,0.0,0.0,0.0,0,0.0,41.08,0,0.35
+58,Olive oil,Oil,"Oil, olive, salad or cooking",884,0.0,100.0,0.0,0.0,0.0,0,0.0,14.35,1,0.6
+59,Beef(steak),Meats,"Beef, flank, steak, separable lean only, trimmed to 0"" fat, select, cooked, broiled",178,27.96,6.48,0.0,0.0,0.0,0,0.0,0.37,20,5.96
+60,Beef(brisket),Meats,"Beef, brisket, flat half, separable lean and fat, trimmed to 1/8"" fat, choice, raw",278,18.12,22.15,0.12,0.0,0.0,0,0.0,0.44,15,5.96
+61,Beef(flank),Meats,"Beef, flank, steak, separable lean only, trimmed to 0"" fat, all grades, raw",141,21.57,5.47,0.0,0.0,0.0,0,0.0,0.3,24,5.96
+62,Lamb(rib),Meats,"Lamb, domestic, rib, separable lean only, trimmed to 1/4"" fat, choice, raw",169,19.98,9.23,0.0,0.0,0.0,0,0.0,0.19,12,2.45
+63,Lamb(loin),Meats,"Lamb, domestic, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw",310,16.32,26.63,0.0,0.0,0.0,0,0.0,0.18,15,2.45
+64,Lamb(shank),Meats,"Lamb, domestic, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw",201,18.58,13.49,0.0,0.0,0.0,0,0.0,0.21,8,2.45
+65,Pork(leg),Meats,"Pork, fresh, leg (ham), whole, separable lean and fat, raw",245,17.43,18.87,0.0,0.0,0.0,0,0.7,0.0,5,0.72
+66,Pork(loin),Meats,"Pork, fresh, loin, whole, separable lean and fat, raw",198,19.74,12.58,0.0,0.0,0.0,2,0.6,0.21,18,0.72
+67,Pork(shoulder),Meats,"Pork, fresh, shoulder, whole, separable lean and fat, raw",236,17.18,17.99,0.0,0.0,0.0,2,0.7,0.19,15,0.72
+68,Poultry(hens),Meats,"Poultry, mechanically deboned, from mature hens, raw",243,14.72,19.98,0.0,0.0,0.0,45,2.0,0.0,187,0.61
