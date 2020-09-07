@@ -1,0 +1,302 @@
+,Unnamed: 0,Food product,sum_emission,Stage,Emission
+0,0,Wheat & Rye (Bread),0.14,Land use change,0.01
+1,1,Maize (Meal),0.11,Land use change,0.03
+2,2,Barley (Beer),0.11,Land use change,0.0
+3,3,Porridge,0.16,Land use change,0.0
+4,4,Rice,0.4,Land use change,0.0
+5,5,Potatoes,0.03,Land use change,0.0
+6,6,Cassava,0.09,Land use change,0.06
+7,7,Cane Sugar,0.26,Land use change,0.12
+8,8,Beet Sugar,0.14,Land use change,0.0
+9,9,Other Pulses,0.16,Land use change,0.0
+10,10,Peas,0.08,Land use change,0.0
+11,11,Nuts,0.02,Land use change,-0.21
+12,12,Groundnuts,0.24,Land use change,0.04
+13,13,Soymilk,0.1,Land use change,0.02
+14,14,Tofu,0.3,Land use change,0.1
+15,15,Soybean Oil,0.6,Land use change,0.31
+16,16,Palm Oil,0.76,Land use change,0.31
+17,17,Sunflower Oil,0.35,Land use change,0.01
+18,18,Canola oil,0.37,Land use change,0.02
+19,19,Olive Oil,0.6,Land use change,-0.04
+20,20,Tomatoes,0.14,Land use change,0.04
+21,21,Onions & Leeks,0.03,Land use change,0.0
+22,22,Root Vegetables,0.03,Land use change,0.0
+23,23,Cabbage,0.04,Land use change,0.0
+24,24,Other Vegetables,0.05,Land use change,0.0
+25,25,Citrus Fruit,0.03,Land use change,-0.01
+26,26,Bananas,0.08,Land use change,0.0
+27,27,Apples,0.03,Land use change,0.0
+28,28,Berries & Grapes,0.11,Land use change,0.0
+29,29,Wine,0.14,Land use change,-0.01
+30,30,Other Fruit,0.07,Land use change,0.01
+31,31,Coffee,1.65,Land use change,0.37
+32,32,Dark Chocolate,1.87,Land use change,1.43
+33,33,Beef raised for meat,5.96,Land use change,1.63
+34,34,Beef raised for dairy,2.11,Land use change,0.09
+35,35,Lamb & Mutton,2.45,Land use change,0.05
+36,36,Pig Meat,0.72,Land use change,0.15
+37,37,Poultry Meat,0.61,Land use change,0.25
+38,38,Milk,0.28,Land use change,0.05
+39,39,Cheese,2.12,Land use change,0.45
+40,40,Eggs,0.45,Land use change,0.07
+41,41,Fish (farmed),0.51,Land use change,0.05
+42,42,Shrimps (farmed),1.18,Land use change,0.02
+43,43,Wheat & Rye (Bread),0.14,Animal Feed,0.0
+44,44,Maize (Meal),0.11,Animal Feed,0.0
+45,45,Barley (Beer),0.11,Animal Feed,0.0
+46,46,Porridge,0.16,Animal Feed,0.0
+47,47,Rice,0.4,Animal Feed,0.0
+48,48,Potatoes,0.03,Animal Feed,0.0
+49,49,Cassava,0.09,Animal Feed,0.0
+50,50,Cane Sugar,0.26,Animal Feed,0.0
+51,51,Beet Sugar,0.14,Animal Feed,0.0
+52,52,Other Pulses,0.16,Animal Feed,0.0
+53,53,Peas,0.08,Animal Feed,0.0
+54,54,Nuts,0.02,Animal Feed,0.0
+55,55,Groundnuts,0.24,Animal Feed,0.0
+56,56,Soymilk,0.1,Animal Feed,0.0
+57,57,Tofu,0.3,Animal Feed,0.0
+58,58,Soybean Oil,0.6,Animal Feed,0.0
+59,59,Palm Oil,0.76,Animal Feed,0.0
+60,60,Sunflower Oil,0.35,Animal Feed,0.0
+61,61,Canola oil,0.37,Animal Feed,0.0
+62,62,Olive Oil,0.6,Animal Feed,0.0
+63,63,Tomatoes,0.14,Animal Feed,0.0
+64,64,Onions & Leeks,0.03,Animal Feed,0.0
+65,65,Root Vegetables,0.03,Animal Feed,0.0
+66,66,Cabbage,0.04,Animal Feed,0.0
+67,67,Other Vegetables,0.05,Animal Feed,0.0
+68,68,Citrus Fruit,0.03,Animal Feed,0.0
+69,69,Bananas,0.08,Animal Feed,0.0
+70,70,Apples,0.03,Animal Feed,0.0
+71,71,Berries & Grapes,0.11,Animal Feed,0.0
+72,72,Wine,0.14,Animal Feed,0.0
+73,73,Other Fruit,0.07,Animal Feed,0.0
+74,74,Coffee,1.65,Animal Feed,0.0
+75,75,Dark Chocolate,1.87,Animal Feed,0.0
+76,76,Beef raised for meat,5.96,Animal Feed,0.19
+77,77,Beef raised for dairy,2.11,Animal Feed,0.25
+78,78,Lamb & Mutton,2.45,Animal Feed,0.24
+79,79,Pig Meat,0.72,Animal Feed,0.29
+80,80,Poultry Meat,0.61,Animal Feed,0.18
+81,81,Milk,0.28,Animal Feed,0.02
+82,82,Cheese,2.12,Animal Feed,0.23
+83,83,Eggs,0.45,Animal Feed,0.22
+84,84,Fish (farmed),0.51,Animal Feed,0.08
+85,85,Shrimps (farmed),1.18,Animal Feed,0.25
+86,86,Wheat & Rye (Bread),0.14,Farm,0.08
+87,87,Maize (Meal),0.11,Farm,0.05
+88,88,Barley (Beer),0.11,Farm,0.02
+89,89,Porridge,0.16,Farm,0.14
+90,90,Rice,0.4,Farm,0.36
+91,91,Potatoes,0.03,Farm,0.02
+92,92,Cassava,0.09,Farm,0.02
+93,93,Cane Sugar,0.26,Farm,0.05
+94,94,Beet Sugar,0.14,Farm,0.05
+95,95,Other Pulses,0.16,Farm,0.11
+96,96,Peas,0.08,Farm,0.07
+97,97,Nuts,0.02,Farm,0.21
+98,98,Groundnuts,0.24,Farm,0.14
+99,99,Soymilk,0.1,Farm,0.01
+100,100,Tofu,0.3,Farm,0.05
+101,101,Soybean Oil,0.6,Farm,0.15
+102,102,Palm Oil,0.76,Farm,0.21
+103,103,Sunflower Oil,0.35,Farm,0.21
+104,104,Canola oil,0.37,Farm,0.23
+105,105,Olive Oil,0.6,Farm,0.43
+106,106,Tomatoes,0.14,Farm,0.07
+107,107,Onions & Leeks,0.03,Farm,0.02
+108,108,Root Vegetables,0.03,Farm,0.02
+109,109,Cabbage,0.04,Farm,0.03
+110,110,Other Vegetables,0.05,Farm,0.02
+111,111,Citrus Fruit,0.03,Farm,0.03
+112,112,Bananas,0.08,Farm,0.03
+113,113,Apples,0.03,Farm,0.02
+114,114,Berries & Grapes,0.11,Farm,0.07
+115,115,Wine,0.14,Farm,0.06
+116,116,Other Fruit,0.07,Farm,0.04
+117,117,Coffee,1.65,Farm,1.04
+118,118,Dark Chocolate,1.87,Farm,0.37
+119,119,Beef raised for meat,5.96,Farm,3.94
+120,120,Beef raised for dairy,2.11,Farm,1.57
+121,121,Lamb & Mutton,2.45,Farm,1.95
+122,122,Pig Meat,0.72,Farm,0.17
+123,123,Poultry Meat,0.61,Farm,0.07
+124,124,Milk,0.28,Farm,0.15
+125,125,Cheese,2.12,Farm,1.31
+126,126,Eggs,0.45,Farm,0.13
+127,127,Fish (farmed),0.51,Farm,0.36
+128,128,Shrimps (farmed),1.18,Farm,0.84
+129,129,Wheat & Rye (Bread),0.14,Processing,0.02
+130,130,Maize (Meal),0.11,Processing,0.01
+131,131,Barley (Beer),0.11,Processing,0.01
+132,132,Porridge,0.16,Processing,0.0
+133,133,Rice,0.4,Processing,0.01
+134,134,Potatoes,0.03,Processing,0.0
+135,135,Cassava,0.09,Processing,0.0
+136,136,Cane Sugar,0.26,Processing,0.0
+137,137,Beet Sugar,0.14,Processing,0.02
+138,138,Other Pulses,0.16,Processing,0.0
+139,139,Peas,0.08,Processing,0.0
+140,140,Nuts,0.02,Processing,0.0
+141,141,Groundnuts,0.24,Processing,0.04
+142,142,Soymilk,0.1,Processing,0.02
+143,143,Tofu,0.3,Processing,0.08
+144,144,Soybean Oil,0.6,Processing,0.03
+145,145,Palm Oil,0.76,Processing,0.13
+146,146,Sunflower Oil,0.35,Processing,0.02
+147,147,Canola oil,0.37,Processing,0.02
+148,148,Olive Oil,0.6,Processing,0.07
+149,149,Tomatoes,0.14,Processing,0.0
+150,150,Onions & Leeks,0.03,Processing,0.0
+151,151,Root Vegetables,0.03,Processing,0.0
+152,152,Cabbage,0.04,Processing,0.0
+153,153,Other Vegetables,0.05,Processing,0.01
+154,154,Citrus Fruit,0.03,Processing,0.0
+155,155,Bananas,0.08,Processing,0.01
+156,156,Apples,0.03,Processing,0.0
+157,157,Berries & Grapes,0.11,Processing,0.0
+158,158,Wine,0.14,Processing,0.01
+159,159,Other Fruit,0.07,Processing,0.0
+160,160,Coffee,1.65,Processing,0.06
+161,161,Dark Chocolate,1.87,Processing,0.02
+162,162,Beef raised for meat,5.96,Processing,0.13
+163,163,Beef raised for dairy,2.11,Processing,0.11
+164,164,Lamb & Mutton,2.45,Processing,0.11
+165,165,Pig Meat,0.72,Processing,0.03
+166,166,Poultry Meat,0.61,Processing,0.04
+167,167,Milk,0.28,Processing,0.01
+168,168,Cheese,2.12,Processing,0.07
+169,169,Eggs,0.45,Processing,0.0
+170,170,Fish (farmed),0.51,Processing,0.0
+171,171,Shrimps (farmed),1.18,Processing,0.0
+172,172,Wheat & Rye (Bread),0.14,Transport,0.01
+173,173,Maize (Meal),0.11,Transport,0.01
+174,174,Barley (Beer),0.11,Transport,0.0
+175,175,Porridge,0.16,Transport,0.01
+176,176,Rice,0.4,Transport,0.01
+177,177,Potatoes,0.03,Transport,0.01
+178,178,Cassava,0.09,Transport,0.01
+179,179,Cane Sugar,0.26,Transport,0.08
+180,180,Beet Sugar,0.14,Transport,0.06
+181,181,Other Pulses,0.16,Transport,0.01
+182,182,Peas,0.08,Transport,0.01
+183,183,Nuts,0.02,Transport,0.01
+184,184,Groundnuts,0.24,Transport,0.01
+185,185,Soymilk,0.1,Transport,0.01
+186,186,Tofu,0.3,Transport,0.02
+187,187,Soybean Oil,0.6,Transport,0.03
+188,188,Palm Oil,0.76,Transport,0.02
+189,189,Sunflower Oil,0.35,Transport,0.02
+190,190,Canola oil,0.37,Transport,0.02
+191,191,Olive Oil,0.6,Transport,0.05
+192,192,Tomatoes,0.14,Transport,0.02
+193,193,Onions & Leeks,0.03,Transport,0.01
+194,194,Root Vegetables,0.03,Transport,0.01
+195,195,Cabbage,0.04,Transport,0.01
+196,196,Other Vegetables,0.05,Transport,0.02
+197,197,Citrus Fruit,0.03,Transport,0.01
+198,198,Bananas,0.08,Transport,0.03
+199,199,Apples,0.03,Transport,0.01
+200,200,Berries & Grapes,0.11,Transport,0.02
+201,201,Wine,0.14,Transport,0.01
+202,202,Other Fruit,0.07,Transport,0.02
+203,203,Coffee,1.65,Transport,0.01
+204,204,Dark Chocolate,1.87,Transport,0.01
+205,205,Beef raised for meat,5.96,Transport,0.03
+206,206,Beef raised for dairy,2.11,Transport,0.04
+207,207,Lamb & Mutton,2.45,Transport,0.05
+208,208,Pig Meat,0.72,Transport,0.03
+209,209,Poultry Meat,0.61,Transport,0.03
+210,210,Milk,0.28,Transport,0.01
+211,211,Cheese,2.12,Transport,0.01
+212,212,Eggs,0.45,Transport,0.01
+213,213,Fish (farmed),0.51,Transport,0.01
+214,214,Shrimps (farmed),1.18,Transport,0.02
+215,215,Wheat & Rye (Bread),0.14,Packging,0.01
+216,216,Maize (Meal),0.11,Packging,0.01
+217,217,Barley (Beer),0.11,Packging,0.05
+218,218,Porridge,0.16,Packging,0.01
+219,219,Rice,0.4,Packging,0.01
+220,220,Potatoes,0.03,Packging,0.0
+221,221,Cassava,0.09,Packging,0.0
+222,222,Cane Sugar,0.26,Packging,0.01
+223,223,Beet Sugar,0.14,Packging,0.01
+224,224,Other Pulses,0.16,Packging,0.04
+225,225,Peas,0.08,Packging,0.0
+226,226,Nuts,0.02,Packging,0.01
+227,227,Groundnuts,0.24,Packging,0.01
+228,228,Soymilk,0.1,Packging,0.01
+229,229,Tofu,0.3,Packging,0.02
+230,230,Soybean Oil,0.6,Packging,0.08
+231,231,Palm Oil,0.76,Packging,0.09
+232,232,Sunflower Oil,0.35,Packging,0.09
+233,233,Canola oil,0.37,Packging,0.08
+234,234,Olive Oil,0.6,Packging,0.09
+235,235,Tomatoes,0.14,Packging,0.01
+236,236,Onions & Leeks,0.03,Packging,0.0
+237,237,Root Vegetables,0.03,Packging,0.0
+238,238,Cabbage,0.04,Packging,0.0
+239,239,Other Vegetables,0.05,Packging,0.0
+240,240,Citrus Fruit,0.03,Packging,0.0
+241,241,Bananas,0.08,Packging,0.01
+242,242,Apples,0.03,Packging,0.0
+243,243,Berries & Grapes,0.11,Packging,0.02
+244,244,Wine,0.14,Packging,0.07
+245,245,Other Fruit,0.07,Packging,0.0
+246,246,Coffee,1.65,Packging,0.16
+247,247,Dark Chocolate,1.87,Packging,0.04
+248,248,Beef raised for meat,5.96,Packging,0.02
+249,249,Beef raised for dairy,2.11,Packging,0.03
+250,250,Lamb & Mutton,2.45,Packging,0.03
+251,251,Pig Meat,0.72,Packging,0.03
+252,252,Poultry Meat,0.61,Packging,0.02
+253,253,Milk,0.28,Packging,0.01
+254,254,Cheese,2.12,Packging,0.02
+255,255,Eggs,0.45,Packging,0.02
+256,256,Fish (farmed),0.51,Packging,0.01
+257,257,Shrimps (farmed),1.18,Packging,0.03
+258,258,Wheat & Rye (Bread),0.14,Retail,0.01
+259,259,Maize (Meal),0.11,Retail,0.0
+260,260,Barley (Beer),0.11,Retail,0.03
+261,261,Porridge,0.16,Retail,0.0
+262,262,Rice,0.4,Retail,0.01
+263,263,Potatoes,0.03,Retail,0.0
+264,264,Cassava,0.09,Retail,0.0
+265,265,Cane Sugar,0.26,Retail,0.0
+266,266,Beet Sugar,0.14,Retail,0.0
+267,267,Other Pulses,0.16,Retail,0.0
+268,268,Peas,0.08,Retail,0.0
+269,269,Nuts,0.02,Retail,0.0
+270,270,Groundnuts,0.24,Retail,0.0
+271,271,Soymilk,0.1,Retail,0.03
+272,272,Tofu,0.3,Retail,0.03
+273,273,Soybean Oil,0.6,Retail,0.0
+274,274,Palm Oil,0.76,Retail,0.0
+275,275,Sunflower Oil,0.35,Retail,0.0
+276,276,Canola oil,0.37,Retail,0.0
+277,277,Olive Oil,0.6,Retail,0.0
+278,278,Tomatoes,0.14,Retail,0.0
+279,279,Onions & Leeks,0.03,Retail,0.0
+280,280,Root Vegetables,0.03,Retail,0.0
+281,281,Cabbage,0.04,Retail,0.0
+282,282,Other Vegetables,0.05,Retail,0.0
+283,283,Citrus Fruit,0.03,Retail,0.0
+284,284,Bananas,0.08,Retail,0.0
+285,285,Apples,0.03,Retail,0.0
+286,286,Berries & Grapes,0.11,Retail,0.0
+287,287,Wine,0.14,Retail,0.0
+288,288,Other Fruit,0.07,Retail,0.0
+289,289,Coffee,1.65,Retail,0.01
+290,290,Dark Chocolate,1.87,Retail,0.0
+291,291,Beef raised for meat,5.96,Retail,0.02
+292,292,Beef raised for dairy,2.11,Retail,0.02
+293,293,Lamb & Mutton,2.45,Retail,0.02
+294,294,Pig Meat,0.72,Retail,0.02
+295,295,Poultry Meat,0.61,Retail,0.02
+296,296,Milk,0.28,Retail,0.03
+297,297,Cheese,2.12,Retail,0.03
+298,298,Eggs,0.45,Retail,0.0
+299,299,Fish (farmed),0.51,Retail,0.0
+300,300,Shrimps (farmed),1.18,Retail,0.02
